@@ -1,0 +1,150 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Global Css */
+*
+{
+    box-sizing: border-box;
+}
+body{
+    background: #111;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container
+{
+    margin-top: 30px;
+}
+.half-width
+{
+    height: 570px;
+    background: #065c6f;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(3.5%,3.1%,2.4%,0.1);
+}
+.generate-btn
+{
+    margin-top: 120px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    border: 8px solid #126e82;
+    background: #51c4d3;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 0 10px 30px rgba(3.5%,3.1%,2.4%,0.1);
+}
+
+/* Input Field Start  */
+
+.generate-btn:focus{
+    outline:none;
+    box-shadow:none;
+}
+.form-control:disabled
+{
+    background-color: #3D4153;
+}
+input[type='text']
+{
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 0;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #126e82;
+    height: 50px;
+    padding: 10px;
+}
+input[type='text']:focus{
+    background-color:#3D4153;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Input Field End  */
+
+/* Calculator Buttons Start  */
+.numbers
+{
+    margin: 10px 0;
+}
+.calc-body
+{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+.calc-button-row
+{
+    width: 100%;
+}
+
+.button
+{
+    width: 20%;
+    padding: 20px 0;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:#51C4D3;
+    vertical-align: middle;
+    text-align: center    ;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button:hover
+{
+background-color: #1098aa;
+}
+
+/* Calculator Buttons End  */
+
+/* Submit Button Start */
+.submit-btn
+{
+    font-size: 20px;
+    margin-top: 10px;
+    background: #51C4D3;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: 3px solid #126e82;
+    outline: none;
+    box-shadow: 0 10px 30px rgba(3.5%,3.1%,2.4%,0.1);
+}
+.submit-btn:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+/* Submit Button End */
+.action-left
+{
+    font-size: 15px;
+    color: tomato;
+    text-decoration: underline;
+}
+.notify-section
+{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.notify
+{
+    visibility: hidden;
+    text-align: center;
+    background: #065C6F;
+    padding: 10px 30px;
+    display:inline-block;
+    border-radius: 100px;
+}
